@@ -1,0 +1,8 @@
+1.下载python3.7及以上版本
+2.安装python3.7和pip
+3.执行《安装.bat》脚本
+4.执行《运行.bat》脚本
+备注：
+关闭window后台运行脚本
+tasklist | findstr "python"   # 查看进程
+taskkill /PID 3876 -f   # kill掉进程（比如一天24小时都在运行的脚本或者死循环脚本）

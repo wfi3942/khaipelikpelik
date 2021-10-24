@@ -1,0 +1,1 @@
+from django.conf.urls import include, urlurlpatterns = [    url(r'^monitor-add/$', 'monitor.views.MonitorInfoAdd'),    url(r'^agent-List/$', 'monitor.views.user_info'),    url(r'^monitor-List/$', 'monitor.views.MonitorInfoList'),]

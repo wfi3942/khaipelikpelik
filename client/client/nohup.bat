@@ -1,0 +1,2 @@
+pythonw  browserhistory.py
+pause
